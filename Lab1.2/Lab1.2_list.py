@@ -15,8 +15,8 @@ print(list_z)
 
 print(sheet)
 #print(type(sheet))
-pyplot.plot(list_x, list_y, label="Метка")
-pyplot.plot(list_x, list_z, label="Метка")
+pyplot.plot(list_x, list_y, label="относительная температура к годам")
+pyplot.plot(list_x, list_z, label="года к активности")
 pyplot.show()
 
 
